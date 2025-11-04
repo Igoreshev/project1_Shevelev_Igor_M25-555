@@ -1,0 +1,29 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[project]
+name = "project1-shevelev-igor-m25-555"
+version = "0.1.0"
+description = ""
+readme = "README.md"
+requires-python = ">=3.10,<4.0"
+authors = [
+  { name = "Игорь Шевелев", email = "russelllarkin1957@stmfala.com" }
+]
+
+
+
+[project.scripts]
+project = "labyrinth_game.main:main"
+
+
+[tool.poetry.group.dev.dependencies]
+
+
+
+[tool.poetry]
+packages = [
+  { include = "labyrinth_game" }
+]
